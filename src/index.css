@@ -1,0 +1,34 @@
+/* @tailwind base;
+@layer base{
+    @font-face {
+      html{
+      font-family: "Markazi Text","Karla", sans-serif;
+      
+    }
+    label,input,select,textarea,p{
+      font-family:"Karla";
+    }
+    input,select,option,textarea{
+      background-color: #eeeeee;
+      border:none;
+      padding: 5px;
+      border-radius: 5px;
+      resize: none;
+    }
+    }
+}
+@tailwind components;
+@tailwind utilities; */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
